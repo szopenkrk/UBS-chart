@@ -1,0 +1,30 @@
+#currencyContainer {
+	border: 2px solid #9e9e9e;
+	width: 457px;
+	height: 177px;
+	margin: 5%;
+	display: inline-block;
+
+}
+.currencyHeader {
+	background: #5f5f5f;
+	color: #fff;
+	width: 100%;
+	height: 35px;
+	padding-top: 10px;
+	text-align: center;
+}
+.currencyBody {
+	background: #f0f0f0;
+}
+.leftCompare {
+	width: 45%;
+}
+
+.centerArrow {
+	width: 10%;
+}
+
+.rightCompare {
+	width: 45%;
+}

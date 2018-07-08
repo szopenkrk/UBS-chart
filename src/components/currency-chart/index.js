@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import styles from './style.css';
+import styles from './index.css';
 
 class CurrencyChart extends Component {
+	constructor(props){
+    	super(props);
+
+    }
+
 	componentWillMount () {
 		console.log('Mounted');
 	}
@@ -9,9 +14,13 @@ class CurrencyChart extends Component {
 	render() {
     	return (
     		<div id="currencyContainer">
-    			<div className={styles.currencyHeader}>
+    			<div className="currencyHeader">
+    				{this.props.currency}
     			</div>
-
+    			<div className="leftCompare">
+    			</div>
+    			<div className="rightCompare">
+    			</div>
     		</div>
     	)
 	}
