@@ -28,8 +28,9 @@ class App extends Component {
       this.state.currency.map(function(cash, index) {
           var counter = Math.floor(Math.random() * 2) + 1;
           var counter2 = Math.floor(Math.random() * 2) + 1;
-          cash.buy = counter === 1 ? cash.buy +1: cash.buy-1;
-          cash.sell = counter2 === 1 ? cash.sell +1: cash.sell-1;
+
+          cash.buy = counter === 1 ? cash.buy +0.2 : cash.buy-0.2;
+          cash.sell = counter2 === 1 ? cash.sell +0.2 : cash.sell-0.2;
       });
       this.forceUpdate()
   }
