@@ -35,6 +35,10 @@
 	color: white;
 }
 
+.leftCompare:hover div {
+	color: white;
+}
+
 .centerArrow {
 	float: left;
 	width: 9%;
@@ -53,7 +57,10 @@
 
 .rightCompare:hover {
 	background: green;
-	border: 3px solid green;
+	border: 3px solid blue;
+}
+
+.rightCompare:hover div{
 	color: white;
 }
 
