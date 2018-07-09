@@ -3,7 +3,7 @@
 	width: 457px;
 	height: 170px;
 	margin: 5px;
-	margin-left:10px;
+	margin-left: 10px;
 	display: inline-block;
 }
 
@@ -29,6 +29,11 @@
 	height: 70px;
 	border: 3px solid #9e9e9e;
 }
+.leftCompare:hover {
+	background: red;
+	border: 3px solid dodgerblue;
+	color: white;
+}
 
 .centerArrow {
 	float: left;
@@ -45,6 +50,13 @@
 	height: 70px;
 	border: 3px solid #9e9e9e;
 }
+
+.rightCompare:hover {
+	background: green;
+	border: 3px solid green;
+	color: white;
+}
+
 .redArrow {
 	width: 0;
 	height: 0;
@@ -55,6 +67,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .greenArrow {
 	width: 0;
 	height: 0;
